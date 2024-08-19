@@ -13,4 +13,9 @@ Stampiamo in pagina i due tiri e il risultato
 4. stampo in pagina il risultato
 */
 
+//FASE PREPARATORIA
+
+const computerResult = document.getElementById('computer');
+const userResult = document.getElementById('user');
+const winnerResult = document.getElementById('winner');
 
