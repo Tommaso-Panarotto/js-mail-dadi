@@ -24,3 +24,14 @@ const winnerResult = document.getElementById('winner');
 const computerNumber = Math.floor(Math.random() * 6) + 1;
 const userNumber = Math.floor(Math.random() * 6) + 1;
 
+//DETERMINO IL VINCITORE
+
+//paragono i risultati
+
+let winner = 'è un pareggio';
+
+if (computerNumber > userNumber) {
+    winner = 'vince il computer'
+} else if (userNumber > computerNumber) {
+    winner = 'vince l\'utente'
+}
