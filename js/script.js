@@ -19,3 +19,8 @@ const computerResult = document.getElementById('computer');
 const userResult = document.getElementById('user');
 const winnerResult = document.getElementById('winner');
 
+//genero i numeri
+
+const computerNumber = Math.floor(Math.random() * 6) + 1;
+const userNumber = Math.floor(Math.random() * 6) + 1;
+
