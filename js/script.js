@@ -89,7 +89,8 @@ userCheck.addEventListener('click', function () {
             result = 'puoi accedere';
         }
     }
-    // vedo risultato
-    console.log(result)
+
+    //mostro il risualto in pagina
+    accessResult.innerText = result;
 }
 )
