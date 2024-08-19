@@ -5,4 +5,12 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto.
 Stampiamo in pagina i due tiri e il risultato
 */
 
-console.log('JS OK');
+/*
+0. richiamo gli elementi dal DOM
+1. genero i numeri in due costanti separate
+2. paragono i risultati 
+3. dichiaro il vincitore
+4. stampo in pagina il risultato
+*/
+
+
