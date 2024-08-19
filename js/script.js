@@ -35,3 +35,9 @@ if (computerNumber > userNumber) {
 } else if (userNumber > computerNumber) {
     winner = 'vince l\'utente'
 }
+
+//STAMPO IN PAGINA
+
+computerResult.innerText = computerNumber;
+userResult.innerText = userNumber;
+winnerResult.innerText = winner;
