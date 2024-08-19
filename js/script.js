@@ -59,3 +59,12 @@ stampa un messaggio appropriato sull’esito del controllo.
 4. controllo se è presente
 5. mostro iul risultato
 */
+
+// FASE PREPARATORIA
+
+// Richiamo gli elemnti dal DOM
+const userMail = document.getElementById('email');
+const userCheck = document.getElementById('check');
+const accessResult = document.getElementById('access');
+
+
