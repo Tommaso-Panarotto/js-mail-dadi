@@ -70,7 +70,16 @@ const accessResult = document.getElementById('access');
 //creo un array con mail valide
 const allEmail = ['tom@gmail', 'luke@libero', 'otto@hotmail'];
 
-//creo variabile di risultato
-let result = 'non puoi accedere';
+//FASE DI ELABORAZIONE
+
+//chiedo all'utente la mail
+userCheck.addEventListener('click', function () {
+
+    //email utente
+    const inputMail = userMail.value.trim();
+
+}
+)
+
 
 
