@@ -67,4 +67,10 @@ const userMail = document.getElementById('email');
 const userCheck = document.getElementById('check');
 const accessResult = document.getElementById('access');
 
+//creo un array con mail valide
+const allEmail = ['tom@gmail', 'luke@libero', 'otto@hotmail'];
+
+//creo variabile di risultato
+let result = 'non puoi accedere';
+
 
