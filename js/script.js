@@ -41,3 +41,21 @@ if (computerNumber > userNumber) {
 computerResult.innerText = computerNumber;
 userResult.innerText = userNumber;
 winnerResult.innerText = winner;
+
+
+/*
+ESERCIZIO 2 - Finta Login
+Inventa una lista di email autorizzate
+Chiedi all’utente la sua email, con un piccolo form.
+controlla che sia nella lista di chi può accedere,
+stampa un messaggio appropriato sull’esito del controllo.
+*/
+
+/*
+0. richiamo gli elementi dal DOM
+1. Creo un array con mail valide
+2. creo variabile di risultato
+3. faccio inserire l'e-mail all'utente
+4. controllo se è presente
+5. mostro iul risultato
+*/
